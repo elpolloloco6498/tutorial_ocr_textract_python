@@ -67,6 +67,6 @@ def extract_text_from_doc(pdf_buffer):
     else:
         raise Exception(f"Textract job failed: {status}")
 
-with open("pitchdeck.pdf", "rb") as pdf:
+with open("testdoc.pdf", "rb") as pdf:
     text = extract_text_from_doc(pdf.read())
     print(text)
