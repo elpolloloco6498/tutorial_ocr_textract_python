@@ -1,5 +1,4 @@
 import boto3
-import requests
 import uuid
 import time
 import os
